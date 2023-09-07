@@ -1,3 +1,7 @@
+Prototipo de Alta fidelidad: https://www.figma.com/proto/Ssf6UFJlE97BQ5sqbsGTLl/Pagina-web-Book-your-Hotel?page-id=0%3A1&type=design&node-id=11-4&viewport=-5%2C378%2C0.16&t=65fONeStqTV1Abg6-1&scaling=min-zoom&starting-point-node-id=11%3A4&mode=design 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
