@@ -2,9 +2,9 @@
 import React from 'react';
 
 // components
-import Header from './components/Header';
+import Header from './Header';
 import Cards from './components/Cards';
-import { FilterProvider } from './components/FilterContext';
+import { FilterProvider } from './FilterContext';
 
 const App = () => {
 	return (
