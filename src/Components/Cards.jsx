@@ -1,12 +1,12 @@
 // dependencies
 import React, { useContext, useState, useEffect } from 'react';
-import { FilterContext } from './components/FilterContext';
+import { FilterContext } from './FilterContext';
 import moment from 'moment';
 import styled from 'styled-components';
 
 // components
 import Card from './Card';
-import DateError from './DatesErrorModal';
+import DatesErrorModal from './DatesErrorModal';
 
 // data
 import hotelsData from '../scripts/data';
