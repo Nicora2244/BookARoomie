@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 // components
 import Card from './Card';
-import DateErrorModal from './DateErrorModal';
+import DatesErrorModal from './DatesErrorModal';
 
 // data
 import hotelsData from '../scripts/data';
@@ -32,7 +32,7 @@ const CardsContainer = styled.section`
 	}
 `;
 
-export default function Cards() {
+function Cards() {
 	const [filter] = useContext(FilterContext);
 	const format = 'YYYY-MM-DD';
 	const checkInDate = moment(filter.checkIn).format(format);
@@ -127,7 +127,7 @@ export default function Cards() {
 			);
 		} else if (checkInDate < today) {
 			return (
-				<DateErrorModal handleClose={handleCloseModal} open={open} />
+				<DatesErrorModal handleClose={handleCloseModal} open={open} />
 			);
 		} else
 			return hotelList.map((hotel) => (
@@ -137,3 +137,4 @@ export default function Cards() {
 
 	return <CardsContainer>{displayHotels(hotelList)}</CardsContainer>;
 }
+export default Cards;

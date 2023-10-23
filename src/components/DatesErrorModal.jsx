@@ -35,7 +35,7 @@ const useStyles= makeStyles((theme) => ({
 	}
 }));
 
-export default function DateError({ handleClose, open }) {
+function DateErrorModal({ handleClose, open }) {
 	const classes = useStyles();
 	return (
 		<>
@@ -69,3 +69,4 @@ export default function DateError({ handleClose, open }) {
 		</>
 	);
 }
+export default DatesError;
