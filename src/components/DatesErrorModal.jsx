@@ -1,8 +1,9 @@
 import React from 'react';
-//import {makeStyles} from '@m';
-//import Modal from '@material-ui/core/Modal';
-//import Backdrop from '@material-ui/core/Backdrop';
-//import Fade from '@material-ui/core/Fade';
+import {makeStyles} from '@m';
+import Modal from '@material-ui/core/Modal';
+import Backdrop from '@material-ui/core/Backdrop';
+import Fade from '@material-ui/core/Fade';
+import base from '../../tailwind.config';
 
 const useStyles= makeStyles((theme) => ({
 	modal: {
@@ -35,7 +36,7 @@ const useStyles= makeStyles((theme) => ({
 	}
 }));
 
-function DateErrorModal({ handleClose, open }) {
+function DatesErrorModal({ handleClose, open }) {
 	const classes = useStyles();
 	return (
 		<>
@@ -69,4 +70,4 @@ function DateErrorModal({ handleClose, open }) {
 		</>
 	);
 }
-export default DatesError;
+export default DatesErrorModal;

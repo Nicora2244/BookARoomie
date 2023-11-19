@@ -9,6 +9,7 @@ import {
 	faGlobe,
 	faBed,
 	faDollarSign
+
 } from '@fortawesome/free-solid-svg-icons';
 import moment from 'moment';
 
