@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 // components
 import Card from './Card';
-import DatesErrorModal from './DatesErrorModal';
+//import DatesErrorModal from './DatesErrorModal';
 
 // data 
 import hotelsData from '../Scripts/data';
@@ -125,10 +125,11 @@ function Cards() {
 					la fecha de check-in
 				</p>
 			);
-		} else if (checkInDate < today) {
+/* 		} else if (checkInDate < today) {
 			return (
 				<DatesErrorModal handleClose={handleCloseModal} open={open} />
 			);
+*/			
 		} else
 			return hotelList.map((hotel) => (
 				<Card {...hotel} key={hotel.slug} />
