@@ -8,8 +8,8 @@ import styled from 'styled-components';
 import Card from './Card';
 import DatesErrorModal from './DatesErrorModal';
 
-// data
-import hotelsData from '../scripts/data';
+// data 
+import hotelsData from '../Scripts/data';
 
 const CardsContainer = styled.section`
 	margin: 0 auto;

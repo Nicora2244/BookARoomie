@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 //import {makeStyles} from '@m';
 //import Modal from '@material-ui/core/Modal';
@@ -70,3 +71,4 @@ function DateErrorModal({ handleClose, open }) {
 	);
 }
 export default DatesError;
+*/
