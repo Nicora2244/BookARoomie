@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 //import {makeStyles} from '@m';
 //import Modal from '@material-ui/core/Modal';
@@ -35,7 +36,7 @@ const useStyles= makeStyles((theme) => ({
 	}
 }));
 
-export default function DateError({ handleClose, open }) {
+function DateErrorModal({ handleClose, open }) {
 	const classes = useStyles();
 	return (
 		<>
@@ -69,3 +70,5 @@ export default function DateError({ handleClose, open }) {
 		</>
 	);
 }
+export default DatesError;
+*/
